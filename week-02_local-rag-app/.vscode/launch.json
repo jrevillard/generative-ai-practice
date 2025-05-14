@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "debugpy",
+        "request": "launch",
+        "name": "Launch Gradio App",
+        "program": "${workspaceFolder}/gradio_app/app.py",
+        "args": [],
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}",
+        "envFile": "${workspaceFolder}/.env"
+      },
+      {
+        "type": "debugpy",
+        "request": "launch",
+        "name": "Launch CLI Main",
+        "program": "${workspaceFolder}/cli/main.py",
+        "args": ["chat"],
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}",
+        "envFile": "${workspaceFolder}/.env"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "programPath",
+        "description": "Enter the path to the Python program to debug"
+      }
+    ]
+  }

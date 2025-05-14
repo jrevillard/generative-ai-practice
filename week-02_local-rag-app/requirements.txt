@@ -1,0 +1,20 @@
+langchain==0.3.25
+langchain_community==0.3.24
+llama-cpp-python==0.3.9
+transformers==4.51.3
+sentence-transformers==4.1.0
+faiss-cpu==1.11.0
+python-dotenv==1.1.0
+tqdm==4.67.1
+typer[yaml]==0.15.3
+PyYAML==6.0.2
+gradio==5.29.0
+
+#Document Loaders
+pdfminer.six
+pillow
+pytesseract
+python-pptx
+docx2txt
+pandas
+openpyxl

@@ -1,0 +1,16 @@
+embedding:
+  model: all-MiniLM-L6-v2
+  device: cpu
+retriever:
+  documents_path: "./documents"
+  chunk_size: 500
+  chunk_overlap: 100
+llm:
+  model_path: "models/mistral-7b-instruct-v0.1.Q6_K.gguf"
+  n_ctx: 32768
+  n_gpu_layers: 0
+  temperature: 0.2
+  top_p: 0.65
+  repeat_penalty: 1.1
+  streaming: false
+  verbose: false
