@@ -8,6 +8,10 @@ models/
 .venv/
 documents/
 index_store/
+data/
+*.pdf
+*.pdf
+week-03_openvino-tests/notebook/*.py
 
 # User-specific files
 *.rsuser
