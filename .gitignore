@@ -8,6 +8,8 @@ models/
 .venv/
 documents/
 index_store/
+*.pdf
+*.pdf
 
 # User-specific files
 *.rsuser
